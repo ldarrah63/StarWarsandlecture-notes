@@ -1,0 +1,375 @@
+.background{
+    width: 1000px;
+    height: 1000px;
+    background-color: blueviolet;
+    background-image: linear-gradient(green, blueviolet, black);
+}
+
+.body{
+    width: 330px;
+    height: 770px;
+    border: solid 4px black;
+    border-radius: 50% 50% 40% 40%;
+    position: relative;
+    left: 300px;
+    background-color: rgb(38, 135, 190);
+    background-image: radial-gradient(yellowgreen, black)
+}
+
+.leg-left{
+ width: 40px;
+ height: 100px;
+ border-radius: 10%;
+ background-color: yellowgreen;  
+ background-image: radial-gradient(yellowgreen, black); 
+ position: relative;
+ bottom: 50px;
+ left: 500px;
+}
+
+.leg-right{
+    width: 40px;
+    height: 100px;
+    border-radius: 10%;
+    background-color: yellowgreen; 
+    background-image: radial-gradient(yellowgreen, black);  
+    position: relative;
+    bottom: 150px;
+    left: 420px;
+}
+
+.tail{
+    width: 400px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+    background-image: radial-gradient(yellowgreen, black);
+    
+}
+
+.spike1{
+    width: 0;
+    height: 0;
+    transform: rotate(55deg);
+    position: absolute;
+    left: 580px;
+    top: 90px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+    
+}
+
+.spike2{
+    width: 0;
+    height: 0;
+    transform: rotate(75deg);
+    position: absolute;
+    left: 600px;
+    top: 180px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.spike3{
+    width: 0;
+    height: 0;
+    transform: rotate(85deg);
+    position: absolute;
+    left: 620px;
+    top: 270px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.spike4{
+    width: 0;
+    height: 0;
+    transform: rotate(87deg);
+    position: absolute;
+    left: 630px;
+    top: 370px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.spike5{
+    width: 0;
+    height: 0;
+    transform: rotate(97deg);
+    position: absolute;
+    left: 630px;
+    top: 480px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.spike6{
+    width: 0;
+    height: 0;
+    transform: rotate(100deg);
+    position: absolute;
+    left: 625px;
+    top: 570px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.spike7{
+    width: 0;
+    height: 0;
+    transform: rotate(120deg);
+    position: absolute;
+    left: 625px;
+    top: 620px;
+    background-image: linear-gradient(black, red);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.spike8{
+    width: 0;
+    height: 0;
+    transform: rotate(120deg);
+    position: absolute;
+    left: 670px;
+    top: 620px;
+    background-image: linear-gradient(black, red);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.spike9{
+    width: 0;
+    height: 0;
+    transform: rotate(120deg);
+    position: absolute;
+    left: 710px;
+    top: 620px;
+    background-image: linear-gradient(black, red);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.spike10{
+    width: 0;
+    height: 0;
+    transform: rotate(120deg);
+    position: absolute;
+    left: 770px;
+    top: 620px;
+    background-image: linear-gradient(black, red);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.spike11{
+    width: 0;
+    height: 0;
+    transform: rotate(120deg);
+    position: absolute;
+    left: 810px;
+    top: 620px;
+    background-image: linear-gradient(black, red);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.spike12{
+    width: 0;
+    height: 0;
+    transform: rotate(55deg);
+    position: absolute;
+    left: 540px;
+    top: 20px;
+    background-image: linear-gradient(black, red);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.lefteye{
+    width: 30px;
+    height: 30px;
+    border: solid 10px black;
+    border-radius: 50%;
+    transform: rotate(134deg);
+    position: absolute;
+    left: 480px;
+    top: 90px;
+    background-color: yellowgreen;
+    background-image: radial-gradient(black, red, yellowgreen)
+
+}
+.righteye{
+    width: 30px;
+    height: 30px;
+    border: solid 10px black;
+    border-radius: 50%;
+    transform: rotate(134deg);
+    position: absolute;
+    left: 380px;
+    top: 90px;
+    background-color: yellowgreen;
+    background-image: radial-gradient(black, red);
+
+}
+
+.left-arm{
+width: 200px;
+ height: 100px;
+ border-radius: 35%;
+ background-color: yellowgreen;
+ background-image: radial-gradient(yellowgreen, black);   
+ position: relative;
+ bottom: 700px;
+ left: 250px;
+}
+
+
+.mouth{
+width: 100px;
+ height: 50px;
+ border-radius: 50%;
+ background-color: black;   
+ position: relative;
+ bottom: 800px;
+ left: 370px;
+}
+
+.tooth1{
+    width: 0;
+    height: 0;
+    transform: rotate(55deg);
+    position: absolute;
+    left: 400px;
+    bottom: 510px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid white;
+}
+
+.tooth2{
+    width: 0;
+    height: 0;
+    transform: rotate(60deg);
+    position: absolute;
+    left: 420px;
+    bottom: 513px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid white;
+}
+
+.tooth3{
+    width: 0;
+    height: 0;
+    transform: rotate(80deg);
+    position: absolute;
+    left: 440px;
+    bottom: 510px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid white;
+}
+
+.toenail1{
+    width: 0;
+    height: 0;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 430px;
+    bottom: -125px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}
+
+.toenail2{
+    width: 0;
+    height: 0;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 450px;
+    bottom: -125px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}
+
+.toenail3{
+    width: 0;
+    height: 0;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 510px;
+    bottom: -125px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}
+.toenail4{
+    width: 0;
+    height: 0;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 530px;
+    bottom: -125px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}
+
+.fingernail1{
+    width: 0;
+    height: 0;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 255px;
+    bottom: 300px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}
+
+.fingernail2{
+    width: 0;
+    height: 0;
+    transform: rotate(43deg);
+    position: absolute;
+    left: 252px;
+    bottom: 280px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}
+
+.fingernail3{
+    width: 0;
+    height: 0;
+    transform: rotate(30deg);
+    position: absolute;
+    left: 252px;
+    bottom: 260px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+}

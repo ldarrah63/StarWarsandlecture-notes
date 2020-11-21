@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-left {
+    width: 150px;
+    background-color: rgb(230, 189, 173);
+    
+}
+#nav-right{
+    width: 200px;
+    background-color: rgb(185, 255, 182);
+}
+.nav-box{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

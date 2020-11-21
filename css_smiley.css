@@ -1,0 +1,37 @@
+.wrapper{margin: 300px;}
+.body{
+    width: 300px;
+    height: 800px;
+    border: solid 2px black;
+    border-radius: 50%;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    background-color: greenyellow;
+}
+.lefteye{
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    border-radius: 50%;
+    top: 50%;
+    left: 150px;
+    z-index: 1;
+    position: relative;
+    margin: 0px 0px 0px -100px;
+    background-color: black;
+}
+.righteye{
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    border-radius: 50%;
+    top: 50%;
+    left: 150px;
+    z-index: 1;
+    position: relative;
+    margin: 0px 0px 0px -100px;
+    background-color: black;
+
+
+}
